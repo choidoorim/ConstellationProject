@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 20px;
+  width: 500px; height: 500px;
+  margin-left: -220px;
+  margin-top: -320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  widh: 300px;
+}
+.main > div{
+  display: flex;
+  justify-content: center;
+  padding-left: 7px;
+  align-items: center;
+}
+label{
+  flex: 1;
+  text-align: left;
+  margin-right: 30px;
+  font-family: cursive;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+#year,#mt,#day{
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.in{
+  float: right;
+  padding: 0 20px;
+  font-size: 30px;
+  margin-right: 5em;
+  margin-top: 3em;
+  background-color: rgba(200, 200, 200, 1);
+  border-radius: 10px;
+}
+body{
+  background-image: url('../img/back.jpg');
+}
